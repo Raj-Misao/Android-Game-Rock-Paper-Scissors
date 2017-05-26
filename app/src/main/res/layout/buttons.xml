@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="ROCK"
+        android:layout_weight="1"
+        android:id="@+id/b_rock"
+        android:textColor="#fff"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="PAPER"
+        android:layout_weight="1"
+        android:id="@+id/b_paper"
+        android:textColor="#fff"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="SCISOR"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:id="@+id/b_scissors"
+        android:background="@drawable/button"/>
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:id="@+id/b_reset"
+        android:background="@drawable/button"/>
+</LinearLayout>

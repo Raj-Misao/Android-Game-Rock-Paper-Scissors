@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:id="@+id/cmp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:id="@+id/cmpResult"
+        android:layout_alignLeft="@id/cmp"
+        android:layout_marginLeft="100sp"/>
+    <include
+        layout="@layout/buttons"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/include" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="220sp"
+        android:id="@+id/you"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:layout_marginTop="220sp"
+        android:id="@+id/youResult"
+        android:layout_alignLeft="@id/you"
+        android:layout_marginLeft="80sp"
+        android:layout_centerHorizontal="true"/>
+
+    <include
+        layout="@layout/hands"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
